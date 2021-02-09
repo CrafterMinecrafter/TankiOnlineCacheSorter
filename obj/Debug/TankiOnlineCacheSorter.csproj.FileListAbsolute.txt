@@ -1,0 +1,13 @@
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\obj\Debug\TankiOnlineCacheSorter.csprojAssemblyReference.cache
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\obj\Debug\TankiOnlineCacheSorter.csproj.CoreCompileInputs.cache
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\bin\Debug\TankiOnlineCacheSorter.exe.config
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\bin\Debug\TankiOnlineCacheSorter.exe
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\bin\Debug\TankiOnlineCacheSorter.pdb
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\obj\Debug\TankiOnlineCacheSorter.exe
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\obj\Debug\TankiOnlineCacheSorter.pdb
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\bin\Debug\config.txt
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\bin\Debug\TankiOnlineCacheSorter.exe.manifest
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\bin\Debug\TankiOnlineCacheSorter.application
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\obj\Debug\TankiOnlineCacheSorter.TrustInfo.xml
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\obj\Debug\TankiOnlineCacheSorter.exe.manifest
+C:\Users\Crafter\source\repos\TankiOnlineCacheSorter\TankiOnlineCacheSorter\obj\Debug\TankiOnlineCacheSorter.application
