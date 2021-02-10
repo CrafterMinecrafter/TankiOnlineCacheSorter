@@ -20,14 +20,9 @@ namespace TankiOnlineCacheSorter
                await sourceStream.CopyToAsync(destinationStream);
         }
         //0 is start time, 1 is end time
-        private static DateTime[] times = new DateTime[2];
-        private static TimeSpan calcedTime
-        {
-            get => times[1] - times[0];
-        }
         public static async Task<bool> Sort(string Path, string OutputPath)
         {
-            times[0] = DateTime.Now;
+            DateTime startTime = DateTime.Now;
             MConsole.WriteLine($"Please wait, copying files from:\n{Path}\nto:\n{OutputPath}");
             string[] cacheFiles = Directory.GetFiles(Path);
             int cl = (int)(((float)cacheFiles.Length) * 0.1f);
@@ -39,8 +34,7 @@ namespace TankiOnlineCacheSorter
                 if (i % cl == 0)
                     MConsole.WriteLine((int)Mathf.Clamp(value: ((float)i / (float)cacheFiles.Length) * 100, min: 0, max: 100) + "% | " + i + "/" + cacheFiles.Length);
             }
-            times[1] = DateTime.Now;
-
+            TimeSpan calcedTime = DateTime.Now - startTime;
             MConsole.WriteLine($"Done!\nWork time:\n[ Hours: {calcedTime.Hours} | Minutes: {calcedTime.Minutes} | Seconds: {calcedTime.TotalSeconds} ]", ConsoleColor.Magenta);
             GC.Collect();
             return true;
