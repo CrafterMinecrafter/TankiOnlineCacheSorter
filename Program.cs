@@ -23,7 +23,7 @@ namespace TankiOnlineCacheSorter
 
 
 
-            public static readonly string DefaultOutputPath = 
+            public static readonly string DefaultOutputPath =
                 MainDrive + "TO_Cache\\";
 
             public static string CurrentOutputPath = DefaultOutputPath;
@@ -53,15 +53,13 @@ namespace TankiOnlineCacheSorter
                 MConsole.WriteLine("Setted path:\n" + Settings.CurrentPathToCacheFolder + "\n", ConsoleColor.Green);
             }
             MConsole.WriteLine("Setted path:\n" + Settings.CurrentPathToCacheFolder + "\n", ConsoleColor.Green);
-
-            if (Directory.Exists(Settings.CurrentOutputPath))
+            if (Directory.Exists(Settings.CurrentOutputPath) &&
+                (Directory.GetFiles(Settings.CurrentOutputPath).Length != 0 ||
+                 Directory.GetDirectories(Settings.CurrentOutputPath).Length != 0))
             {
-                if (Directory.GetFiles(Settings.CurrentOutputPath).Length != 0)
-                {
-                    MConsole.WriteLine("Delete files in output path!", ConsoleColor.Red);
-                    Console.ReadLine();
-                    return;
-                }
+                MConsole.WriteLine("Delete files in output path!", ConsoleColor.Red);
+                Console.ReadLine();
+                return;
             }
 
             MConsole.WriteLine("Setted path:\n" + Settings.CurrentOutputPath + "\n", ConsoleColor.Green);

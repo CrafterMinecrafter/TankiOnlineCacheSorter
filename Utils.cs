@@ -39,6 +39,7 @@ namespace Extensions.Console
         {
             System.Console.ForegroundColor = TextColor;
             System.Console.WriteLine(text);
+            System.Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
